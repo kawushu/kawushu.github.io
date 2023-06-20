@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="web form.css">
+        </head>
+<body>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer>
+</script>
+<h1>Web form</h1>
+    <form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="" required maxlength="45"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="" required maxlength="45"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="Email" name="Email" revalue="bravomail98@gmail.com"> <br>
+</form>
+
+<div
+    class="g-recaptcha"
+    data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+    data-callback="onRecaptchaSuccess"
+    data-expired-callback="onRecaptchaResponseExpiry"
+    data-error-callback="onRecaptchaError"
+>
+</div>
+
+
+</div>
+
+<input type="submit" value="Submit">
+
+</body>
+</html>
